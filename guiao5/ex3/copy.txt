@@ -1,0 +1,13 @@
+Exercı́cio 5.3
+Crie um programa CopyFile que copie um ficheiro de texto. Os nomes dos dois fichei-
+ros envolvidos devem ser dados como argumentos na linha de comandos. 1 Por exemplo,
+java -ea CopyFile Texto1.txt Texto2.txt deve criar um ficheiro Texto2.txt com um
+conteúdo igual ao do ficheiro Texto1.txt. Se Texto2.txt já existir, deve perguntar ao
+utilizador se deseja reescrever o seu conteúdo.
+O programa deve ser robusto. Deve detetar falhas e apresentar mensagens de erro
+apropriadas. Várias condições têm de estar reunidas para que o programa funcione. O
+ficheiro original tem de existir, tem de ser um ficheiro normal e o utilizador tem de ter
+permissão para o ler. Se o ficheiro de destino existir, tem de ter permissão de escrita.
+Se não existir, então tem de ter permissão de escrita no diretório pai. Mesmo assim,
+podem ocorrer falhas imprevisı́veis, como erros no disco ou de comunicação, que devem ser
+reportadas.
